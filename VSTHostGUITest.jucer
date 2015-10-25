@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="AAUGpY" name="VSTHostGUITest" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.VSTHostGUITest" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0">
+  <MAINGROUP id="VnUnhd" name="VSTHostGUITest">
+    <GROUP id="{0FD934B1-7B09-E099-7681-6A68581753FC}" name="Source">
+      <GROUP id="{44EAF68C-F0A2-5CDE-38C6-24FD026C9C37}" name="UI">
+        <GROUP id="{B704F112-0C9E-4207-AA6E-BA9C61D5470D}" name="BASE">
+          <FILE id="kz9voZ" name="BaseBodyComponent.cpp" compile="1" resource="0"
+                file="Source/BaseBodyComponent.cpp"/>
+          <FILE id="Z3Il16" name="BaseBodyComponent.h" compile="0" resource="0"
+                file="Source/BaseBodyComponent.h"/>
+          <FILE id="BP1Ghw" name="BaseMainWindow.cpp" compile="1" resource="0"
+                file="Source/BaseMainWindow.cpp"/>
+          <FILE id="LRa7gg" name="BaseMainWindow.h" compile="0" resource="0"
+                file="Source/BaseMainWindow.h"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{A0C5EB5A-1976-B072-AD73-071381F7121F}" name="PluginHostTools">
+        <FILE id="ZuyO6s" name="MultiOutMidiIn.cpp" compile="1" resource="0"
+              file="Source/MultiOutMidiIn.cpp"/>
+        <FILE id="aMc0l2" name="MultiOutMidiIn.h" compile="0" resource="0"
+              file="Source/MultiOutMidiIn.h"/>
+        <FILE id="kUP1CH" name="MidiManager.cpp" compile="1" resource="0" file="Source/MidiManager.cpp"/>
+        <FILE id="wKbDAZ" name="MidiManager.h" compile="0" resource="0" file="Source/MidiManager.h"/>
+        <FILE id="vHmesB" name="MidiInputProcessor.cpp" compile="1" resource="0"
+              file="Source/MidiInputProcessor.cpp"/>
+        <FILE id="MJWUUe" name="MidiInputProcessor.h" compile="0" resource="0"
+              file="Source/MidiInputProcessor.h"/>
+        <FILE id="vLzdvJ" name="BASEPluginHostApplication.cpp" compile="1"
+              resource="0" file="Source/BASEPluginHostApplication.cpp"/>
+        <FILE id="HnxJbQ" name="BASEPluginHostApplication.h" compile="0" resource="0"
+              file="Source/BASEPluginHostApplication.h"/>
+        <FILE id="BrDpOE" name="Application.cpp" compile="1" resource="0" file="Source/Application.cpp"/>
+        <FILE id="MDPr76" name="Application.h" compile="0" resource="0" file="Source/Application.h"/>
+        <FILE id="xbyGEj" name="AudioGraphManager.cpp" compile="1" resource="0"
+              file="Source/AudioGraphManager.cpp"/>
+        <FILE id="c0gCUc" name="AudioGraphManager.h" compile="0" resource="0"
+              file="Source/AudioGraphManager.h"/>
+        <FILE id="aFxsdE" name="PluginManager.cpp" compile="1" resource="0"
+              file="Source/PluginManager.cpp"/>
+        <FILE id="rsxxq7" name="PluginManager.h" compile="0" resource="0" file="Source/PluginManager.h"/>
+      </GROUP>
+      <FILE id="z9xnUB" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="KzZjBX" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="oeic7B" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="Cfk6i8" name="Main.h" compile="0" resource="0" file="Source/Main.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" vstFolder="C:\Lib\VST3SDK\pluginterfaces\vst2.x"
+            vst3Folder="C:\Lib\VST3SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="VSTHostGUITest" headerPath="C:\Lib\ASIOSDK2.3\common"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="VSTHostGUITest"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../Lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../Lib/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_ASIO="enabled" JUCE_PLUGINHOST_VST="enabled" JUCE_PLUGINHOST_VST3="enabled"/>
+</JUCERPROJECT>
